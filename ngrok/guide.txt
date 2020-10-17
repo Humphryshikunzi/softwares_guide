@@ -1,0 +1,17 @@
+This software exposes your local computer url to the internet.
+For debuging purposes, the url is accessed via the software.
+Windows.
+First turn off windows defender as it blocks requests from the internet that redirects to your locall machine.
+
+if you haven't installed ngrok, do that from this url
+	https://www.twilio.com/docs/usage/tutorials/how-use-ngrok-windows-and-visual-studio-test-webhooks
+
+For asp dotnet core applications, first change the project from iis express to the name of your project.
+
+head for the directory having the ngrok.exe program, open the program there and enter the command below
+	ngrok http -host-header="localhost:[port]" [port]
+For my case, the app website is running on port 5000, and so it is
+	ngrok http -host-header="localhost:5000" 5000
+
+thats it, note that for asp dotnet core api defaults in launchsettings file, http is on port 5000 and https is on port 5001
+do it, and do other important work.
