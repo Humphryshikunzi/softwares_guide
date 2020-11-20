@@ -1,0 +1,2 @@
+To remove migration, just type the below command and the previously added migration will be removed
+Remove-migration
