@@ -1,0 +1,7 @@
+push code to different git repo to preserve commits
+  git remote add CmappBackend https://github.com/Humphryshikunzi/CmappBackend.git
+  git push CmappBacked master
+  
+  
+check the origin of repo
+  git remote -v
