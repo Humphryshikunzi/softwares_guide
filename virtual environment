@@ -1,0 +1,23 @@
+create virtual enivironment  
+  python -m venv LearnTfEnvironm 
+acitvate the environment => 
+  .\LearnTfEnvironment\scripts\activate.bat
+deactiavte the virtual environment => 
+  deactivate
+to uninstall the virtual evironment => delete the folder with the venv => 
+  rm -r <name>       //note its -r or -n
+
+to make tensorflow available to jupyter notebooks, install ipkernel =>
+	 pip install ipykernel
+   
+then type => where tutorial is the name of environment in jupyter notebook =>
+	 python -m ipykernel install --user --name=tutorial
+   
+List the number of kernels
+	 jupyter kernelspec list
+   
+Remove a kernel
+	jupyter kernelspec remove tutorial
+
+for more, check 
+	https://towardsdatascience.com/link-your-virtual-environment-to-jupyter-with-kernels-a69bc61728df
