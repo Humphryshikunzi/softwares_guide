@@ -1,0 +1,7 @@
+In powershell 
+
+    ssh-keygen 
+
+    ssh  reaiot@40.65.194.170 
+
+Click enter and enter, password and continue. 
