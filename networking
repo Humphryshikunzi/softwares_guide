@@ -1,0 +1,4 @@
+ipconfig - check your ip address
+ping <website url> check how long it take your sent bytes to reach destination
+tracert <website uri e.g www.google.com > same as ping though has additions like hops 
+netstat short for network status, used for checking the status of the network. You can see other private connections in the network
