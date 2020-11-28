@@ -1,0 +1,15 @@
+instructions from 
+	https://www.c-sharpcorner.com/blogs/android-with-xamarin-debugging-over-wifi
+
+open cmd in Admin Mode
+cd C:\Program Files (x86)\Android\android-sdk\platform-tools"
+adb tcpip 5555
+adb connect <ipaddress:5555> , adb connect 192.168.100.3:5555
+adb devices
+
+check your android ip instructions here
+ https://ccm.net/faq/33725-how-to-check-your-android-ip-address
+
+cd C:\Program Files (x86)\Android\android-sdk\platform-tools"
+adb tcpip 5555
+adb connect 192.168.100.3:5555
