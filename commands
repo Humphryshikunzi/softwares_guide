@@ -1,0 +1,6 @@
+rd /s  - remove a folder and its contents 
+type <file name> opens the file in cmd
+del <filename> deletes the file
+echo <some content>  > filename.<extension>  creating a file and writing some content on it
+<filename> typing the filename justs opens the file using default app
+move <filename/foldername> <path to move the file to>
