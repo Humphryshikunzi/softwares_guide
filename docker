@@ -1,0 +1,12 @@
+docker version - show the version for docker
+docker ps -a   - list all the containers in docker, running and not 
+docker run <image> runs the image, and pulls from docker hub if the container is not on local host
+docker ps
+docker stop <container id/name>
+docker rm <imagename> remove container
+docker images <listimages>
+docker rmi <imagename>
+docker pull <image> without running
+docker exec <> show the contents of a container
+docker run-d <> running  a container in the background
+docker attach <container id> getting back to container in the background
