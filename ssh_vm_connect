@@ -5,3 +5,13 @@ In powershell
     ssh  reaiot@40.65.194.170 
 
 Click enter and enter, password and continue. 
+
+
+
+
+to send files
+In git-bash.exe 
+
+scp Tacotron-2-keras-3.zip reaiot@40.65.194.170:C:\Users\reaiot\Desktop\TextToSpeech 
+
+ 
