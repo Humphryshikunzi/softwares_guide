@@ -8,20 +8,20 @@ check the origin of repo
 
 others 
  git remote
- git remote -v     // this command shows information about the uri to the github repo
- git branch -vv    // check tracking branches
+ git remote -v     ### this command shows information about the uri to the github repo
+ git branch -vv    ### check tracking branches
  git fetch origin
  git merge origin/master
  git remote add upstream <git link to original forked repo>
- git fetch upstream      // staying in sync with the original forked repo
+ git fetch upstream      ### staying in sync with the original forked repo
  git merge upstream/master
  git branch -a
  git branch -r
  git log - get the commit history, identify what you committed when.
  git log -3  display the last three commits made
  git clone -b <branchname>  <url> clone a different branch other than the default
- git  log //	Lists all commits
- git reset --hard HEAD~3 //	Removes previous 3 commits, ca be 2, 4 e.t.c also check for 
+ git  log ###	Lists all commits
+ git reset --hard HEAD~3 ###	Removes previous 3 commits, ca be 2, 4 e.t.c also check for 
  git reset --soft HEAD~3
 
 
