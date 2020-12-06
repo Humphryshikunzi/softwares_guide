@@ -1,0 +1,4 @@
+enable audio
+  https://stackoverflow.com/questions/20022620/how-to-enable-sound-on-windows-azure-vm
+    or
+  windows start => services => winodws audio
