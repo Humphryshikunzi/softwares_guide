@@ -10,3 +10,7 @@ python3 -m pip install <modulename>
 kill a port 
    kill -9 (lsof -t -i: <portnumber>)  e.g
    kill -9 (lsof -t -i:2000) 
+
+
+touch test_file.py    // to create a py file
+nano test_file.py     // opens the py file, write your files there
