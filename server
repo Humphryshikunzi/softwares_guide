@@ -5,3 +5,8 @@ cat <file name>  // list the contents of a file
 curl api.ipify.org // show ip address
 
 python3 -m pip install <modulename>
+
+
+kill a port 
+   kill -9 (lsof -t -i: <portnumber>)  e.g
+   kill -9 (lsof -t -i:2000) 
