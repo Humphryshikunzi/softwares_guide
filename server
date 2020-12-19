@@ -14,3 +14,6 @@ kill a port
 
 touch test_file.py    // to create a py file
 nano test_file.py     // opens the py file, write your files there
+
+remove directory, with data.
+rm -rf humphryweb/
