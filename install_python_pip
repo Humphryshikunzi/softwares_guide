@@ -1,0 +1,6 @@
+I don't know but this just worked
+  pip install auxlib
+  pip install conda==4.2.7
+  python -m pip install --upgrade pip
+  conda update conda
+  pip install ruamel_yaml==0.11.14
