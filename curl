@@ -1,0 +1,2 @@
+curl -O <link for file to download>.tar  // if it was a tar file
+tar xf <file name to untar>.tar
