@@ -1,0 +1,17 @@
+{
+    "device": "{device}",
+    "time": "{time}",
+    "seqNumber": "{seqNumber}",
+    "deviceTypeId": "{deviceTypeId}",
+    "lat": {customData#Lat},
+    "long": {customData#Long},
+    "acc_X": {customData#Acc_X},
+    "acc_Y": {customData#Acc_Y},
+    "temp": {customData#Temp},
+    "hum": {customData#Hum},
+    "acc_X_Neg": {customData#Acc_X_Neg},
+    "acc_Y_Neg": {customData#Acc_Y_Neg},
+    "gpsStandBy": {customData#GpsStandBy},
+    "gps_South": {customData#Gps_South},
+    "gps_West": {customData#Gps_West}
+}
