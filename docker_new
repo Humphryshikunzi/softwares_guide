@@ -1,0 +1,57 @@
+This is to help me learn docker
+Install docker 
+  https://www.docker.com/
+
+Check version
+  docker version
+  
+get popular images 
+  https://hub.docker.com/
+hello_world for docker
+  docker run docker/whalesay cowsay boo
+run an app from docker image
+  docker run    // runs if the commnad was locally, pulls from docker hub if not there 
+run a container in the background
+  docker run -d
+ 
+list docker containers
+  docker image ls
+ 
+list runing containers
+  docker ps
+
+list currently running plus previously running
+  docker ps -a
+
+stop a running container
+  docker stop <container_name/id>
+ 
+to remove an image so it doesn't consume space
+  docker rm <container_name/id>
+  
+tags
+  this refers to versions of docker
+
+get inputs from user in interactive manner
+ docker run -i 
+ 
+get inputs from terminal in interactive way as well as in termninal
+  docker run -it
+  
+mapping ports on docker host
+  docker run -p 80:5006
+  
+view the contents of a docker container running in the background
+  docker logs <container_id/name>
+
+check the properties of a running container
+  docker inspect
+  
+get help
+  docker run --help
+ 
+check infor about docker image that has been run
+docker history <image_name>
+
+The entrypoint is always appended on the command
+The cmd is an optional, is appended if no other arguments are provided 
