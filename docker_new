@@ -55,3 +55,14 @@ docker history <image_name>
 
 The entrypoint is always appended on the command
 The cmd is an optional, is appended if no other arguments are provided 
+
+
+docker-compose.yml up
+  when you have many services to run, you can put them in this file docker-compose.yml and run once with this commnad
+  
+links
+  used to make different parts of an app communicate to each other.
+  
+Private registry
+  docker login private-registry.io
+  docker run private-registry/apps/myapphere
