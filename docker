@@ -10,7 +10,7 @@ docker pull <image> without running
 docker exec <> show the contents of a container
 docker run-d <> running  a container in the background
 docker attach <container id> getting back to container in the background
-
+docker run --name governorCache -p 6379:6379 -d redis
 
 
 learn more at https://www.youtube.com/watch?v=DrBWj7WWy9o
