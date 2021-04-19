@@ -1,0 +1,5 @@
+start the docker image
+docker run --name governorCache -p 6379:6379 -d redis
+
+remove container
+docker rm 0be774aaa52bf2e47e777aea22ab088d39ac4b6ca3ee6878d0f59120d014c918
