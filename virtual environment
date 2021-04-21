@@ -1,7 +1,14 @@
 create virtual enivironment  
   python -m venv LearnTfEnvironm 
+  
+for linux, first install python3-venv
+sudo apt-get install python3-venv
+
 acitvate the environment => 
   .\LearnTfEnvironment\scripts\activate.bat
+  
+for linux 
+	 source ./reaiotenv/Scripts/activate
 deactiavte the virtual environment => 
   deactivate
 to uninstall the virtual evironment => delete the folder with the venv => 
@@ -21,3 +28,5 @@ Remove a kernel
 
 for more, check 
 	https://towardsdatascience.com/link-your-virtual-environment-to-jupyter-with-kernels-a69bc61728df
+
+
