@@ -33,3 +33,7 @@ $ git credential-manager install
 Merging conflicts - https://www.youtube.com/watch?v=__cR7uPBOIk
 
  git push --set-upstream origin UdpServer -f // pushing forcefully some changes
+ 
+ 
+ Delete a branch
+ git branch -D <branch>
