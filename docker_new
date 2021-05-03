@@ -35,6 +35,9 @@ tags
 get inputs from user in interactive manner
  docker run -i 
  
+just build
+ docker build -t <container name>
+ 
 get inputs from terminal in interactive way as well as in termninal
   docker run -it
   
