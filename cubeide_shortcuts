@@ -5,7 +5,11 @@ alt + down arrow/ up arrow
 
 
 highlight and autointent
-  ctrl + i
+  ctrl + I
 
 open definition code for function
   f3
+
+remove lines
+    ctrl + D
+
