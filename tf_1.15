@@ -1,2 +1,11 @@
 https://stackoverflow.com/questions/61491893/i-cannot-install-tensorflow-version-1-15-through-pip
 conda create -n tf15 python tensorflow=1.15
+
+
+more
+  to install specific version of python
+  conda create -n tf python=3.7
+  
+  and
+  
+  conda create -n tf15 python=3.5 tensorflow=1.15
