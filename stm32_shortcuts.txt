@@ -1,0 +1,5 @@
+highlight and apply alt + up/down arrow
+  moves the selected piece of code up or down
+  
+highlight alt + i
+  autointent the selected piece of code
