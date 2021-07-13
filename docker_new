@@ -69,3 +69,7 @@ links
 Private registry
   docker login private-registry.io
   docker run private-registry/apps/myapphere
+  
+  
+ reset password
+  https://id.docker.com/reset-password/
