@@ -17,3 +17,7 @@ nano test_file.py     // opens the py file, write your files there
 
 remove directory, with data.
 rm -rf humphryweb/
+
+
+ // Change ownership from root to speed
+ chown speed:speed Tracktile-Api -R
