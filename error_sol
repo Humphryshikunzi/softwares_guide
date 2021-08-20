@@ -1,0 +1,5 @@
+
+linux
+OSError: sndfile library not found
+install
+apt-get install libsndfile1
