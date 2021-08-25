@@ -9,3 +9,7 @@ OSError: sndfile library not found
 uninstall soundfile and install it with pip
 
 
+for Visual Studio Build Tools
+Install Visual Studio and select the development with c++, option one by the time of writing this document
+
+
