@@ -1,3 +1,14 @@
 Install on NV-Series VMs
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/n-series-driver-setup
 http://us.download.nvidia.com/tesla/451.82/451.82-tesla-desktop-winserver-2019-2016-international.exe
+
+
+Guide 
+https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
+
+install cuda
+https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64&target_version=Server2019&target_type=exelocal
+
+install cuDnn
+https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.5.32/Production/10.1_20191031/cudnn-10.1-windows10-x64-v7.6.5.32.zip
+https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
