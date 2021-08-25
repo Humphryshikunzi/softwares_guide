@@ -1,3 +1,3 @@
 Install on NV-Series VMs
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/n-series-amd-driver-setup
-https://download.microsoft.com/download/3/4/8/3481cf8d-1706-49b0-aa09-08c9468305ab/AMD-Azure-NVv4-Windows-Driver-21Q2.exe
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/n-series-driver-setup
+http://us.download.nvidia.com/tesla/451.82/451.82-tesla-desktop-winserver-2019-2016-international.exe
