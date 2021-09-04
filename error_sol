@@ -1,15 +1,32 @@
 
+#################################################################################################################
 linux
 OSError: sndfile library not found
 install
 apt-get install libsndfile1
 
+#################################################################################################################
 windows
 OSError: sndfile library not found
 uninstall soundfile and install it with pip
 
-
+#################################################################################################################
 for Visual Studio Build Tools
 Install Visual Studio and select the development with c++, option one by the time of writing this document
+
+#################################################################################################################
+err - Notebook clean_train.ipynb is not trusted
+sol - jupyer trust .\clean_train.ipynb
+    - jupyter notebook .\clean_train.ipynb
+    
+    
+err - DLL load failed while importing win32api: The specified procedure could not be found.
+sol - pip uninstall pywin32
+    - cd C:\Users\humph\Anaconda3
+    - python.exe Scripts/pywin32_postinstall.py -install
+
+
+
+
 
 
