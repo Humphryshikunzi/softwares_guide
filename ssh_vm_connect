@@ -15,6 +15,17 @@ In git-bash.exe
 scp Tacotron-2-keras-3.zip reaiot@40.65.194.170:C:\Users\reaiot\Desktop\TextToSpeech 
 scp -r <zipped_file> username@ip_address:~/           #this will send the file to your home directory if you had no root writes initially
 
+in server
+cd username/ 'i.e cd speed
+
+then move file to required place like
+sudo mv api.zip /home/state
+
+then unizp the file, if zipped
+sudo unzip api.zip
+
+remove the initial zip file
+sudo rm api.zip
 
 More documentation
 https://unix.stackexchange.com/questions/47909/transfer-files-using-scp-permission-denied
