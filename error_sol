@@ -25,8 +25,9 @@ sol - pip uninstall pywin32
     - cd C:\Users\humph\Anaconda3
     - python.exe Scripts/pywin32_postinstall.py -install
 
-
-
+###############################################################################################################
+err - Could not import PIL.Image. The use of `load_img` requires PIL.
+sol - pip3 install pillow
 
 
 
