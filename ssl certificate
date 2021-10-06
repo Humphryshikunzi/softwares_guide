@@ -1,0 +1,3 @@
+in python request module
+https://stackoverflow.com/questions/46604114/python-requests-ssl-error-certificate-verify-failed 
+add verify=False to any request
