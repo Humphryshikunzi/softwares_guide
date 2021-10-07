@@ -29,5 +29,9 @@ sol - pip uninstall pywin32
 err - Could not import PIL.Image. The use of `load_img` requires PIL.
 sol - pip3 install pillow
 
+###############################################################################################################
+err - 
+sol -  pip install --ignore-installed <module name>
+
 
 
