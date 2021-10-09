@@ -37,3 +37,6 @@ Merging conflicts - https://www.youtube.com/watch?v=__cR7uPBOIk
  
  Delete a branch
  git branch -D <branch>
+ 
+ git restore <filename>
+ this helps remove changes that had been added to a file
