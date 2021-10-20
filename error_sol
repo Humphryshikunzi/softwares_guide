@@ -39,6 +39,9 @@ sol - apt-get install build-essential
     - apt-get install libpq-dev python3-dev
     - pip3 install psycopg2
     
+##############################################################################################################
+err - AttributeError: 'Request' object has no attribute 'is_xhr', when using jsonfy
+sol -  pip install werkzeug==0.16.1
 
 
 
