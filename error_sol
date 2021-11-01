@@ -43,5 +43,9 @@ sol - apt-get install build-essential
 err - AttributeError: 'Request' object has no attribute 'is_xhr', when using jsonfy
 sol -  pip install werkzeug==0.16.1
 
+##############################################################################################################
+err - why ufw status inactive 
+sol - sudo ufw enable
+
 
 
