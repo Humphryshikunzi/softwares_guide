@@ -31,4 +31,7 @@ More documentation
 https://unix.stackexchange.com/questions/47909/transfer-files-using-scp-permission-denied
 from server to local computer
 scp user_id@server:~/My_file.txt ~/Desktop/
+
+from server to server
+scp ~/nginx2.tar.gz root@134.209.237.213:/
  
