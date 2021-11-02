@@ -1,5 +1,5 @@
 main doc
-
+https://www.cyberciti.biz/faq/install-and-configure-nginx-on-ubuntu-linux-18-04-lts/
 
 log errors
   sudo tail -30 /var/log/nginx/error.log
