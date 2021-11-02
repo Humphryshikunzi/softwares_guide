@@ -1,5 +1,5 @@
-configure apache
-  https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04
-  
-configure nginx
-  https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/
+main doc
+
+
+log errors
+  sudo tail -30 /var/log/nginx/error.log
