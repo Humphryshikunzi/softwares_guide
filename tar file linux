@@ -3,3 +3,5 @@ e.g tar czfp nginx.tar.gz nginx
 
 untar 
 tar -xvf <tar_archive> <filename>
+e.g 
+  tar -xvf nginx2.tar.gz nginx/
