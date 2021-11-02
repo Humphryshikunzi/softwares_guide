@@ -1,0 +1,2 @@
+tar czfP backup.tar.gz /path/to/catalog
+e.g tar czfp nginx.tar.gz nginx
