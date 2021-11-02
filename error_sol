@@ -47,5 +47,7 @@ sol -  pip install werkzeug==0.16.1
 err - why ufw status inactive 
 sol - sudo ufw enable
 
-
+##############################################################################################################
+err - ssh fails connnecting to digital ocean droplet
+sol - allow port 22 through firewall, ufw allow 22
 
