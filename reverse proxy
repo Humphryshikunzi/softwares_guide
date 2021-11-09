@@ -7,3 +7,7 @@ log errors
 
 restart php7.4 ubuntu 18.04
   sudo service php7.4-fpm restart
+
+check status of php7.4 ubuntu 18.04
+  sudo service php7.4-fpm status
+  
