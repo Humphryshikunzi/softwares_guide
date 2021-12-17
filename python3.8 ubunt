@@ -1,0 +1,11 @@
+source - https://stackoverflow.com/questions/61717006/pip-for-python-3-8sudo apt install python3.8
+
+sudo apt install python3.8-distutils
+
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.8 get-pip.py
+
+python3.8 -m pip --version
+
+python3.8 -m pip install [package name]
+
