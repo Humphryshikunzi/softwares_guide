@@ -40,3 +40,6 @@ Merging conflicts - https://www.youtube.com/watch?v=__cR7uPBOIk
  
  git restore <filename>
  this helps remove changes that had been added to a file
+ 
+ //bring back stashed files
+ git checkout  stash -- .
