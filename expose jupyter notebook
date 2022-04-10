@@ -1,0 +1,3 @@
+jupyter notebook --generate-config
+
+https://stackoverflow.com/questions/42848130/why-i-cant-access-remote-jupyter-notebook-server
