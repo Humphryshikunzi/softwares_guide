@@ -1,0 +1,38 @@
+Step 1: Current state of the Python version:
+
+$ python3 -V
+
+Step 2: Current state of Python alternatives:
+
+$ sudo update-alternatives --config python3
+
+Step 3: Removing existing python3.10 that was attempted before:
+
+$ sudo apt remove python3.10
+
+$ sudo apt list | grep python3.10
+
+ sudo apt remove libqgispython3.10.4
+ 
+ update and upgrade system
+ 
+ sudo apt install software-properties-common -y
+ 
+Step 6: Then proceed and add the deadsnakes PPA to the APT package manager sources list:
+
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+
+Step 7: Download Python 3.10 with the single command below:
+
+$ sudo apt install python3.10
+
+Step 8: Verify the installation by checking the installed version:
+
+	
+$ python3.10 --version
+
+
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8
+
+sudo update-alternatives  --set python /usr/bin/python3.8
