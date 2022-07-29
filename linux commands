@@ -8,3 +8,15 @@ echo <some content>  > filename.<extension>  creating a file and writing some co
 
 move <filename/foldername> <path to move the file to>
 e.g sudo mv home/speed/preprocess_dir.zip home/state/TensorFlowTTS/data
+
+
+
+###########################################################
+adjust brightness
+source 
+https://vitux.com/control-screen-brightness-from-ubuntu-terminal/
+
+xrandr | grep " connected" | cut -f1 -d " "
+xrandr --output LVDS-1 --brightness 0.75                     # LVDS-1, monitor identity
+
+
