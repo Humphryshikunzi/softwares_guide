@@ -33,7 +33,7 @@ $ python3.10 --version
 
 
 
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8                 #python
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8  1              #python
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1             #python3
 
 sudo update-alternatives  --set python /usr/bin/python3.8
