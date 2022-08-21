@@ -19,5 +19,7 @@ https://vitux.com/control-screen-brightness-from-ubuntu-terminal/
 xrandr | grep " connected" | cut -f1 -d " "
 xrandr --output LVDS-1 --brightness 0.75                     # LVDS-1, monitor identity
 xrandr --output HDMI-0 --brightness 0.5 
+xrandr --output DP-0 --brightness 0.5
+
 
 
