@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/4810996/how-to-resolve-configure-guessing-build-type-failure
+
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD' -O './config.guess'
+wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD' -O './config.sub'
+
+./configure
