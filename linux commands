@@ -22,4 +22,4 @@ xrandr --output HDMI-0 --brightness 0.5
 xrandr --output DP-0 --brightness 0.5
 
 
-
+ scp .\julius_dl_front.jpg root@206.189.13.33:/var/images/Images/Documents
