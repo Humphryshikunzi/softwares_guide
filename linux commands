@@ -23,3 +23,6 @@ xrandr --output DP-0 --brightness 0.5
 
 
  scp .\julius_dl_front.jpg root@206.189.13.33:/var/images/Images/Documents
+
+open vscode as admin
+code . --no-sandbox --user-data-dir .
