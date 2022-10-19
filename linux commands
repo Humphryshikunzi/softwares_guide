@@ -1,3 +1,6 @@
+check version - 
+ cat /etc/os-release
+
 rd /s  - remove a folder and its contents 
 
 type <file name> opens the file in cmd
