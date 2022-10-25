@@ -43,3 +43,6 @@ Merging conflicts - https://www.youtube.com/watch?v=__cR7uPBOIk
  
  //bring back stashed files
  git checkout  stash -- .
+ 
+ git rm --cache client_folder 
+ // remove cached folder, folder within project with just an arrow
