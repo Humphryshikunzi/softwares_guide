@@ -40,3 +40,6 @@ crontab -e
 
 #connection timeout to ssh server
 https://www.tecmint.com/increase-ssh-connection-timeout/
+
+#activate virtual host
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
