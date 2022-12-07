@@ -36,3 +36,7 @@ sudo select-editor
 start service at reboot
 crontab -e
 @reboot  /home/user/startup.sh
+
+
+#connection timeout to ssh server
+https://www.tecmint.com/increase-ssh-connection-timeout/
