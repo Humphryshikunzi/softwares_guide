@@ -1,0 +1,10 @@
+SELECT name, state_desc from sys.databases 
+GO
+ALTER DATABASE safiricardb SET EMERGENCY;
+GO
+ALTER DATABASE safiricardb set single_user
+GO
+DBCC CHECKDB (safiricardb, REPAIR_ALLOW_DATA_LOSS) WITH ALL_ERRORMSGS;
+GO
+ALTER DATABASE safiricardb set multi_user
+GO
