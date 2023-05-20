@@ -1,1 +1,2 @@
 https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal
+ln -s /etc/nginx/sites-available/files.pamride.com /etc/nginx/sites-enabled/
