@@ -1,0 +1,8 @@
+https://www.saurabhmisra.dev/force-git-show-login-prompt/#:~:text=Use%20git%20config&text=Step%201%3A%20Use%20this%20command,value%20somewhere%20for%20use%20later.&text=Step%202%3A%20Now%20run%20the,will%20unset%20the%20existing%20credentials.&text=Step%203%3A%20If%20you%20now,and%20you%20should%20be%20good.
+https://seankilleen.com/2021/01/how-to-force-git-to-prompt-you-for-a-password/
+
+git config --system credential.helper
+git config --system --unset credential.helper
+
+bring back no login
+git config --system credential.helper <copied value>
