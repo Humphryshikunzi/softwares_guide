@@ -1,0 +1,8 @@
+It's the 2.1 version of Psreadline: PSReadLine 2.1.0 - PowerShell Gallery It autocompletes using the command history file. It works in powershell 5.1 and comes with powershell 7.
+
+Actually PSReadLine is up to version 2.2.6. To turn it on, put "Set-PSReadLineOption -PredictionSource History" in your $profile.
+
+Install-Module -Name PSReadLine -force
+
+
+https://chatgpt.com/share/0be8ded0-4b9f-4e6b-b602-aed0f13ce877
